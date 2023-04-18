@@ -6,13 +6,17 @@ import Header from './Header'
 import Hero from './Hero'
 import Footer from './Footer'
 
+import characters from './data'
+
 function App() {
   
-
+  
   return (
     <div className="App">
      <Header />
-     <Hero />
+     <Hero 
+      characters={characters}
+     />
      <Footer />
     </div>
   )
