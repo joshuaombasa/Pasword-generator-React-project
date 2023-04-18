@@ -5,6 +5,7 @@ export default function Header() {
         <div className="header">
             <h2 className="white-header">Generate a</h2>
             <h2 className="green-header">random password</h2>
+            <p>Never use an insecure password again</p>
         </div>
     )
 }
