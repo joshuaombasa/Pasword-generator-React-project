@@ -3,6 +3,7 @@
   width: 550px;
   margin: 0 auto;
   background-color: #1F2937;
+  padding: 150px 20px;
 }
 
 .header {
@@ -25,3 +26,38 @@
 .green-header {
   color: #4ADF86;
 }
+
+.header p {
+  color: whitesmoke;
+  font-size: 20px;
+  margin: 0;
+}
+
+.password-length-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 10px 0;
+}
+
+.password-length-input {
+  width: 300px;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+}
+
+.submit-btn {
+  border-radius: 15px;
+  padding: 10px;
+  border: none;
+  width: 250px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #10B981;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: none;
+}
+
