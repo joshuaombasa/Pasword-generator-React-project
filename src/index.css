@@ -1,0 +1,27 @@
+
+.App {
+  width: 550px;
+  margin: 0 auto;
+  background-color: #1F2937;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header h2 {
+  border: 1px solid black;
+  margin: 0;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.white-header {
+  color: whitesmoke;
+}
+
+.green-header {
+  color: #4ADF86;
+}
