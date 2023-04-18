@@ -2,18 +2,23 @@ import React from "react";
 
 export default function Hero(props) {
 
-    console.log(props.characters.length)
+    
 
     function getRandomPassword() {
-        for (i=0; i<10; i++) {
-            
+        let password = []
+        for (let i=0; i<10; i++) {
+            password.push(props.characters[getRandomNumber()])
         }
+
+        return password.join('')
     }
 
     function getRandomNumber() {
         let randomNumber = ''
         return randomNumber = Math.floor(Math.random() * props.characters.length) 
     }
+
+    console.log(getRandomPassword())
 
     return (
         <div className="hero">
