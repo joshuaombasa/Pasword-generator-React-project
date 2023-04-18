@@ -1,6 +1,20 @@
 import React from "react";
 
-export default function Hero() {
+export default function Hero(props) {
+
+    console.log(props.characters.length)
+
+    function getRandomPassword() {
+        for (i=0; i<10; i++) {
+            
+        }
+    }
+
+    function getRandomNumber() {
+        let randomNumber = ''
+        return randomNumber = Math.floor(Math.random() * props.characters.length) 
+    }
+
     return (
         <div className="hero">
             <form action="" className="password-length-form">
