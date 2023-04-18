@@ -30,9 +30,10 @@ function getRandomNumber() {
     <div className="App">
      <Header />
      <Hero 
-      password={getRandomPassword()}
      />
-     <Footer />
+     <Footer 
+     password={getRandomPassword()}
+     />
     </div>
   )
 }
